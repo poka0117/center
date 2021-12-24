@@ -1,0 +1,33 @@
+body{
+    height: 200vh;
+}
+.wrapper{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: solid black 3px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box_2{
+    width: 200px;
+    height: 200px;
+    background-color: #555555;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
